@@ -1,7 +1,8 @@
-# About me
-**Name:** Estela Mae Jalac
-**Course/Year:** BS Information Systems 3rd Year
-**Fun Fact:** I love dogs
+# About Me
+
+**Name:** Estela Mae Jalac  
+**Course/Year:** BS Information Systems 3rd Year  
+**Fun Fact:** I love dogs.
 
 ---
 
