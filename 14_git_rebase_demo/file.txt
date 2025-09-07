@@ -1,0 +1,1 @@
+I noticed that even though i switched from main and feature branch back and fort, after rebasing, the history shows a clear path and not a messy one.
