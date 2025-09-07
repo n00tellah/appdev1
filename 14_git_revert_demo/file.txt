@@ -1,2 +1,3 @@
 Line 1
 Line 2
+I noticed that after i did git log --oneline, all the commit records are there even the reverted one but seeing the txt file, the text that i echoed earlier is already gone in the txt file 
