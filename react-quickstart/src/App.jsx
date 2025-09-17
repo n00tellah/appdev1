@@ -55,6 +55,25 @@ function Profile() {
   );
 }
 
+let content;
+const isLoggedIn = false;
+
+if (isLoggedIn) {
+  content = <AdminPanel />;
+} else {
+  content = <LoginForm />;
+}
+function AdminPanel() {
+  return <h1>Welcome, Admin!</h1>;
+}
+
+function LoginForm() {
+  return (
+    <h1>Welcome to Login Form</h1>
+  );
+}
+
+
 export default function App() {
   return (
     <div>
@@ -63,7 +82,7 @@ export default function App() {
       <AboutPage />
       <Avatar />
       <Profile />
-      
+      {content}
     </div>
   );
 }
