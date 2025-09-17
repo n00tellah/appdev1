@@ -18,12 +18,28 @@ function AboutPage() {
   );
 }
 
+function Avatar() {
+  return (
+    <div>
+      <img 
+        src="C:\Users\Admin\Pictures\avatar.jpg"
+        alt="Avatar"
+        style={{
+          borderRadius: "50%"
+        }}
+      />
+    </div>
+  );
+}
+
 export default function App() {
   return (
     <div>
       <h1>Welcome to my app</h1>
       <MyButton />
       <AboutPage />
+      <Avatar />
+      
     </div>
   );
 }
