@@ -96,21 +96,23 @@ function ShoppingList() {
   );
 }
 
-function Button() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
+function Button({ count, onClick }) {
   return (
-    <button onClick={handleClick}>
-      Clicked {count} times
-    </button>
+	<button onClick={onClick}>
+  	Clicked {count} times
+	</button>
   );
 }
 
+
+
 export default function App() {
+   const [count, setCount] = useState(0);
+
+ function handleClick() {
+   setCount(count + 1);
+ }
+
   return (
     <div>
       <h1>Welcome to my app</h1>
@@ -120,8 +122,10 @@ export default function App() {
       <Profile />
       {content}
       <ShoppingList />
-      <Button />
-      <Button />
+      <h1>Counters that update together</h1>
+  	 <Button count={count} onClick={handleClick} />
+  	 <Button count={count} onClick={handleClick} />
+
     </div>
   );
 }
