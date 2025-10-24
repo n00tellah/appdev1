@@ -1,0 +1,1 @@
+I noticed that in micro commits, we can change the commit message in each commit that we make, whereas in macro commits, we can only make one commit message which makes it hard for organizing the files.
