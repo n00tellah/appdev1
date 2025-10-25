@@ -1,13 +1,13 @@
-function Cup({ guest }) {
-  return <h2>Tea cup for guest #{guest}</h2>;
+import { greetA } from './ModuleA.js';
+import { greetB } from './ModuleB.js';
+import { greetC } from './ModuleC.js';
+
+function rootGreet() {
+  console.log('Hello from RootModule');
+  greetA();
+  greetB();
+  greetC();
 }
 
-export default function TeaSet() {
-  return (
-    <>
-      <Cup guest={1} />
-      <Cup guest={2} />
-      <Cup guest={3} />
-    </>
-  );
-}
+export default rootGreet;
+rootGreet();
