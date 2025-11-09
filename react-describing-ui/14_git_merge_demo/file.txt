@@ -1,0 +1,1 @@
+, I noticed that git merge combined the histories of both branches. The graph showed a clear branching structure, one path for the hotfix on main, and another for the feature work.

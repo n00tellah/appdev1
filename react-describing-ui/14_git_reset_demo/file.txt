@@ -1,0 +1,2 @@
+"Line 1" 
+"Line 2"I noticed that the latest commit or Line 3 was gone from the commit history and the previous commit which is the Line 2 became the latest in the record
